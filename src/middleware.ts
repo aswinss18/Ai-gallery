@@ -8,7 +8,7 @@ export const config = {
     "/((?!_next|.*\\..*).*)", // Match all routes except static files
 
     // Allow public routes
-    "/public-route", // Add your public routes here
+    "/api/webhooks/clerk", // Add your public routes here
     // Add more public routes if needed
 
     // Always run for API routes
